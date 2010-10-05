@@ -1,0 +1,117 @@
+;instructions
+
+$14
+]Welcome to Tournament Trivia!  
+$7
+Tournament Trivia is easy to play -- Whenever 
+a new question is displayed, try to be the first player to answer it.  Clues
+are provided every so often to help you figure out the answer.  To try an 
+answer, simply type it and press <enter>.  
+
+If you get the question right, you'll be awarded points.  Your points add
+up from day to day, and are reset monthly.  In single-player mode, all 
+questions are worth 1 point.  In multi-player mode, questions are worth
+more points, depending on how many clues have been given so far.
+
+When a question comes up that totally baffles you, try the "skip" command.
+In single-player mode, "skip" will reduce the amount of time that the 
+current question is displayed.  In multi-player mode, the question will be
+skipped instantly if ALL on-line players use "skip".
+
+Tournament Trivia also functions as a multi-user chat room.  Anything that
+you type (aside from correct answers and game commands) will be echoed to all
+other players in the game.
+
+
+
+$11
+The following commands can be used in the game at any time:
+$7
+;skip
+SKIP        -  If ALL players use "skip", this question is skipped.
+-skip
+;players
+PLAYERS     -  Lists what players are on-line in the game.
+-players
+;scores
+SCORES      -  Displays this month's top 10 scores.
+-scores
+;exit
+EXIT        -  Exits the game.
+-exit
+;tell
+TELL        -  Sends a private message to a player (tell <player> <text>)
+-tell
+;submit
+SUBMIT      -  Used to submit a new question to the sysop for use in the game.
+-submit
+;correction
+CORRECTION  -  Use to obtain information on where to send question corrections.
+-correction
+;configure
+CONFIGURE   -  Sysops can use this command to change game settings.
+-configure
+
+;synchronet
+;globals
+;invite
+$11
+In the Synchronet version, these additional commands are available:
+$7
+Control-U   -  Global user list: lists all users on-line on the BBS.
+Control-P   -  Global paging: send a message to a user on the BBS.
+-synchronet
+-globals
+-invite
+
+
+If you are interested in submitting questions for the game, please visit
+$3
+]http://trivia.doormud.com 
+$7
+for an on-line question submission form!
+
+-
+;submission
+
+Sorry, direct question submission is not yet available in this version of 
+Tournament Trivia.  However, you may submit trivia questions on-line at
+$11
+]http://trivia.doormud.com
+$7
+ to have them added to the global question 
+database for the game's next release!  As an incentive, your sysop will 
+receive a registration discount, or possibly even a free registration if
+enough questions are submitted.
+
+-
+;sysop
+$9
+]ù 
+$15
+]Sysop access detected.  
+$7
+]Type 
+$11
+]CONFIG 
+$7
+if you want to change game settings.
+
+
+-
+;local
+$9
+]ù 
+$15
+]Local mode detected.  
+$7
+]Type 
+$11
+]CONFIG 
+$7
+if you want to change game settings.
+
+
+-
+-
+-

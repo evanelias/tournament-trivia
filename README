@@ -1,0 +1,78 @@
+This is the source code to the TOURNAMENT TRIVIA win32 BBS doorgame.
+
+v1.0 original game release: July 2003
+
+Released as freeware and open source (GPL3), October 2010.
+
+Directories:
+
+/release
+    Contains the contents of the original Tournament Trivia 1.0 zip release.
+    For a general README on the game, see release/readme.txt
+    
+/source/trivia
+    Source for Tournament Trivia. Apologies for the awful tab-stops and odd
+    indentation. 3-space tabs? Aligning braces with their bodies? Good lord.
+    Please fork this and reformat!
+
+/source/intrnode
+    Source for "ObjectDoor" door engine -- see below.
+    Same horrible indentation practices as the trivia source, I'm afraid :)
+
+/keygen
+    Contains a keygen exe and its source
+
+
+About Tournament Trivia:
+
+Players compete  with each other in real-time, trying to be the first to answer
+the current question.  Scores add up from day to day, and are reset at the end
+of the month, with one player emerging victorious. Excellent multi-node support
+that also functions as a chat room.  
+
+Runs on Synchronet, as well as any Windows-based BBS software that supports
+DOOR32.SYS (Winserver, Mystic, EleBBS, and GameSrv)
+
+
+
+About ObjectDoor:
+
+This is an engine I wrote for building Win32 multiuser doorgames.  It makes
+multiuser BBS games substantially easier to write by passing all major game
+functionality to a background process, which is communicated with via Win32
+Mailslots for its IPC mechanism.  It uses multithreading extensively.
+
+It can build executables for either the Synchronet XSDK or the OpenDoors 
+doorkit -- link the appropriate one in when compiling.
+
+In 2003-04 I started work on a version of Intrnode that builds a single
+executable supporting both doorkits, and I also started Linux and FreeBSD
+ports of the software.  Neither were completed, but if I can dig them up,
+I'll release them as a branch.
+
+
+
+Compiling:
+
+All code was originally compiled on Borland C++ 5.  With modern compilers, YMMV.
+
+
+
+
+Synchronet, Synchronet XSDK, and the OpenDoors door kit are all copyright their
+respective authors and are released under licenses noted in their source files.
+
+All other code (c) 2003 Evan Elias unless otherwise noted.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

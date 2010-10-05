@@ -1,0 +1,47 @@
+Tournament Trivia -- Registration Form   
+--------------------------------------
+ Please see README.TXT for instructions on how to register.  This form is
+ for registering the door via Postal Mail.  On-line registration is also
+ available; please visit http://trivia.doormud.com/register.html for details.
+
+ Please fill out this form neatly and legibly.  
+
+ Sysop Name _____________________________________
+ (Game will display as registered to this name)   
+                                                    
+ Your e-mail address:  __________________________   
+ (Registration file will be sent to this address)
+
+
+ Your Real Name _________________________________
+ (If different than Sysop Name above.  Required
+ if using an Alias for Sysop Name.)
+ 
+ 
+ Home address, City, State, Zip Code, Country:
+    _____________________________________________         
+    _____________________________________________         
+    _____________________________________________         
+ 
+
+ BBS Name              __________________________
+ BBS Phone Number      __________________________   (If applicable)
+ Telnet Address        __________________________   (If applicable)
+ BBS Software          __________________________
+   # of telnet lines   _____    
+   # of dial-up lines  _____   
+
+ Where did you first hear about this door?   _________________________________
+ 
+
+ I, _________________________ (Your Name), state that the above information is
+ correct.  Upon receiving my registration file, I will not distribute it in any
+ form.  Should any of the above information be false, or should my registration
+ file be found to have been distributed to other computer systems, I understand
+ that I will be held liable for any and all damages.
+
+ Signed _____________________  Date ____________    (Please sign in ink)
+             
+ If you wish, you may use the back of this sheet to write additional comments.
+
+ Please include appropriate payment as specified in README.TXT.
